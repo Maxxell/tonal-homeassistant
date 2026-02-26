@@ -1,0 +1,9 @@
+{
+  "domain": "tonal",
+  "name": "Tonal Strength Scores",
+  "version": "0.1.0",
+  "requirements": [],
+  "codeowners": ["@Maxxell"],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
