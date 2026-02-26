@@ -19,17 +19,16 @@ Create a new folder under custom_components called "tonal" and put all the opera
 Search for "Tonal Strength Scores".  That will initiate the Home Assistant configuration wizard which will ask for your tonal email and tonal account password.  If successful, it will access tonal's service and download your 10 strength scores.  
 
 Here is a list of the sensors it creates:
-            entities:
-              - entity: sensor.tonal_abs_strength_score
-              - entity: sensor.tonal_back_strength_score
-              - entity: sensor.tonal_biceps_strength_score
-              - entity: sensor.tonal_chest_strength_score
-              - entity: sensor.tonal_glutes_strength_score
-              - entity: sensor.tonal_hamstrings_strength_score
-              - entity: sensor.tonal_obliques_strength_score
-              - entity: sensor.tonal_shoulders_strength_score
-              - entity: sensor.tonal_triceps_strength_score
-              - entity: sensor.tonal_quads_strength_score
+- entity: sensor.tonal_abs_strength_score
+- entity: sensor.tonal_back_strength_score
+- entity: sensor.tonal_biceps_strength_score
+- entity: sensor.tonal_chest_strength_score
+- entity: sensor.tonal_glutes_strength_score
+- entity: sensor.tonal_hamstrings_strength_score
+- entity: sensor.tonal_obliques_strength_score
+- entity: sensor.tonal_shoulders_strength_score
+- entity: sensor.tonal_triceps_strength_score
+- entity: sensor.tonal_quads_strength_score
 
 
 Dashboard Example:
@@ -108,6 +107,7 @@ Dashboard Example:
               - entity: sensor.tonal_triceps_strength_score
               - entity: sensor.tonal_quads_strength_score
     cards: []
+
 
 Example Script: 
 Save the current scores as temporary variables
