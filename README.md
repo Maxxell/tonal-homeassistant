@@ -3,6 +3,7 @@ Home Assistant integration for Tonal to read current detailed strength scores (n
 
 This integration was inspired by and originally based on the MIT‑licensed project at https://github.com/curlrequests/toneget
 
+*Note: this is my first Github project and my first attempt to publish a Home Assistant integration.  I relied heavily on the AI inside Visual Studio to modify the original toneget python package to only get the data I want, and then I relied on CoPilot to convert that python project into a Home Assistant integration.  Please let me know if you see any issues with this software.*
 
 What it does?
 
