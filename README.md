@@ -10,7 +10,7 @@ This integration connects to your tonal account (using Home Assistant configurat
 
 How to install it?
 
-Create a new folder under custom_components called "tonal" and put all the operative files inside (__init__.py, manifest.json,sensor.py,tonal_api.py,config_flow.py).  
+1. Create a new folder under custom_components called "tonal" and put all the operative files inside (__init__.py, manifest.json,sensor.py,tonal_api.py,config_flow.py).  
 
 2. Reboot Home Assistant.
 
