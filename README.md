@@ -5,14 +5,20 @@ This integration was inspired by and originally based on the MIT‑licensed proj
 
 
 What it does?
+
 This integration connects to your tonal account (using Home Assistant configuration system for username/password) and makes 10 sensors available, one for each muscle group.  This is the stuff that shows up in your Tonal App as a bar graph, but now you can see the actual numbers for each.
 
 How to install it?
+
 Create a new folder under custom_components called "tonal" and put all the operative files inside (__init__.py, manifest.json,sensor.py,tonal_api.py,config_flow.py).  
 
 2. Reboot Home Assistant.
 
-3. Settings / Devices & services / Add integration.  Search for "Tonal Strength Scores".  That will initiate the Home Assistant configuration wizard which will ask for your tonal email and tonal account password.  If successful, it will access tonal's service and download your 10 strength scores.  Here is a list of the sensors it creates:
+3. Settings / Devices & services / Add integration.
+
+Search for "Tonal Strength Scores".  That will initiate the Home Assistant configuration wizard which will ask for your tonal email and tonal account password.  If successful, it will access tonal's service and download your 10 strength scores.  
+
+Here is a list of the sensors it creates:
             entities:
               - entity: sensor.tonal_abs_strength_score
               - entity: sensor.tonal_back_strength_score
